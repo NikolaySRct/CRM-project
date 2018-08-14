@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		95353EAC212338BD00648B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EAB212338BD00648B56 /* AppDelegate.swift */; };
-		95353EAE212338BD00648B56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EAD212338BD00648B56 /* ViewController.swift */; };
 		95353EB1212338BD00648B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95353EAF212338BD00648B56 /* Main.storyboard */; };
 		95353EB4212338BD00648B56 /* CRM_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95353EB2212338BD00648B56 /* CRM_project.xcdatamodeld */; };
 		95353EB6212338BD00648B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95353EB5212338BD00648B56 /* Assets.xcassets */; };
@@ -20,6 +19,8 @@
 		95353EE12123444D00648B56 /* ClientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EE02123444D00648B56 /* ClientsTableViewController.swift */; };
 		95353EE32123446900648B56 /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EE22123446900648B56 /* ProjectsTableViewController.swift */; };
 		95353EE7212344C100648B56 /* ClientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EE6212344C100648B56 /* ClientsTableViewCell.swift */; };
+		95353EEC212345F000648B56 /* ProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EEB212345F000648B56 /* ProjectsTableViewCell.swift */; };
+		95353EEE212346DC00648B56 /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EED212346DC00648B56 /* ProjectDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,6 @@
 /* Begin PBXFileReference section */
 		95353EA8212338BD00648B56 /* CRM-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRM-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95353EAB212338BD00648B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95353EAD212338BD00648B56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95353EB0212338BD00648B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95353EB3212338BD00648B56 /* CRM_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CRM_project.xcdatamodel; sourceTree = "<group>"; };
 		95353EB5212338BD00648B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		95353EE02123444D00648B56 /* ClientsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsTableViewController.swift; sourceTree = "<group>"; };
 		95353EE22123446900648B56 /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
 		95353EE6212344C100648B56 /* ClientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsTableViewCell.swift; sourceTree = "<group>"; };
+		95353EEB212345F000648B56 /* ProjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewCell.swift; sourceTree = "<group>"; };
+		95353EED212346DC00648B56 /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,16 +111,13 @@
 		95353EAA212338BD00648B56 /* CRM-project */ = {
 			isa = PBXGroup;
 			children = (
+				95353EEF212346FE00648B56 /* TableViewCells */,
 				95353EE9212344E200648B56 /* ViewControllers */,
 				95353EE8212344D100648B56 /* Model */,
-				95353EAB212338BD00648B56 /* AppDelegate.swift */,
-				95353EAD212338BD00648B56 /* ViewController.swift */,
+				95353EEA2123458B00648B56 /* Supporting Files */,
 				95353EAF212338BD00648B56 /* Main.storyboard */,
-				95353EE6212344C100648B56 /* ClientsTableViewCell.swift */,
-				95353EB5212338BD00648B56 /* Assets.xcassets */,
-				95353EB7212338BD00648B56 /* LaunchScreen.storyboard */,
-				95353EBA212338BD00648B56 /* Info.plist */,
 				95353EB2212338BD00648B56 /* CRM_project.xcdatamodeld */,
+				95353EBA212338BD00648B56 /* Info.plist */,
 			);
 			path = "CRM-project";
 			sourceTree = "<group>";
@@ -155,8 +154,28 @@
 			children = (
 				95353EE02123444D00648B56 /* ClientsTableViewController.swift */,
 				95353EE22123446900648B56 /* ProjectsTableViewController.swift */,
+				95353EED212346DC00648B56 /* ProjectDetailsViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		95353EEA2123458B00648B56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95353EAB212338BD00648B56 /* AppDelegate.swift */,
+				95353EB7212338BD00648B56 /* LaunchScreen.storyboard */,
+				95353EB5212338BD00648B56 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95353EEF212346FE00648B56 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				95353EE6212344C100648B56 /* ClientsTableViewCell.swift */,
+				95353EEB212345F000648B56 /* ProjectsTableViewCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,12 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95353EAE212338BD00648B56 /* ViewController.swift in Sources */,
 				95353EB4212338BD00648B56 /* CRM_project.xcdatamodeld in Sources */,
 				95353EE7212344C100648B56 /* ClientsTableViewCell.swift in Sources */,
 				95353EDD21233DFC00648B56 /* ClientInfo.swift in Sources */,
+				95353EEC212345F000648B56 /* ProjectsTableViewCell.swift in Sources */,
 				95353EAC212338BD00648B56 /* AppDelegate.swift in Sources */,
 				95353EE12123444D00648B56 /* ClientsTableViewController.swift in Sources */,
+				95353EEE212346DC00648B56 /* ProjectDetailsViewController.swift in Sources */,
 				95353EDF21233ECB00648B56 /* ProjectInfo.swift in Sources */,
 				95353EE32123446900648B56 /* ProjectsTableViewController.swift in Sources */,
 			);
