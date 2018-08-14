@@ -74,6 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="183" y="49"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="mQL-hv-ca8">
@@ -105,7 +106,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YaV-cv-1Wj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1783" y="69"/>
+            <point key="canvasLocation" x="1897" y="48"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="gfv-6a-t1j">
@@ -136,7 +137,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yEB-P5-xhg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2668" y="68.815592203898049"/>
+            <point key="canvasLocation" x="2702" y="47"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="srv-ze-FFS">
@@ -151,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pU7-uw-VDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3503.1999999999998" y="68.815592203898049"/>
+            <point key="canvasLocation" x="3506" y="48"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WIX-dx-Uh7">
@@ -169,7 +170,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VRg-pU-xMC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="892" y="68.815592203898049"/>
+            <point key="canvasLocation" x="1046" y="48"/>
         </scene>
     </scenes>
 </document>

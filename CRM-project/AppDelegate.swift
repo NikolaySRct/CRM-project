@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  CRM-project
-//
-//  Created by Nikolay on 8/14/18.
-//  Copyright © 2018 Nikolay. All rights reserved.
-//
-
 import UIKit
 import CoreData
 

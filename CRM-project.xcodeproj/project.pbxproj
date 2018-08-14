@@ -15,6 +15,11 @@
 		95353EB9212338BD00648B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95353EB7212338BD00648B56 /* LaunchScreen.storyboard */; };
 		95353EC4212338BE00648B56 /* CRM_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EC3212338BE00648B56 /* CRM_projectTests.swift */; };
 		95353ECF212338BE00648B56 /* CRM_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353ECE212338BE00648B56 /* CRM_projectUITests.swift */; };
+		95353EDD21233DFC00648B56 /* ClientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EDC21233DFC00648B56 /* ClientInfo.swift */; };
+		95353EDF21233ECB00648B56 /* ProjectInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EDE21233ECB00648B56 /* ProjectInfo.swift */; };
+		95353EE12123444D00648B56 /* ClientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EE02123444D00648B56 /* ClientsTableViewController.swift */; };
+		95353EE32123446900648B56 /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EE22123446900648B56 /* ProjectsTableViewController.swift */; };
+		95353EE7212344C100648B56 /* ClientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EE6212344C100648B56 /* ClientsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		95353ECA212338BE00648B56 /* CRM-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRM-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95353ECE212338BE00648B56 /* CRM_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRM_projectUITests.swift; sourceTree = "<group>"; };
 		95353ED0212338BE00648B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95353EDC21233DFC00648B56 /* ClientInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfo.swift; sourceTree = "<group>"; };
+		95353EDE21233ECB00648B56 /* ProjectInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectInfo.swift; sourceTree = "<group>"; };
+		95353EE02123444D00648B56 /* ClientsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsTableViewController.swift; sourceTree = "<group>"; };
+		95353EE22123446900648B56 /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
+		95353EE6212344C100648B56 /* ClientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,12 @@
 		95353EAA212338BD00648B56 /* CRM-project */ = {
 			isa = PBXGroup;
 			children = (
+				95353EE9212344E200648B56 /* ViewControllers */,
+				95353EE8212344D100648B56 /* Model */,
 				95353EAB212338BD00648B56 /* AppDelegate.swift */,
 				95353EAD212338BD00648B56 /* ViewController.swift */,
 				95353EAF212338BD00648B56 /* Main.storyboard */,
+				95353EE6212344C100648B56 /* ClientsTableViewCell.swift */,
 				95353EB5212338BD00648B56 /* Assets.xcassets */,
 				95353EB7212338BD00648B56 /* LaunchScreen.storyboard */,
 				95353EBA212338BD00648B56 /* Info.plist */,
@@ -126,6 +139,24 @@
 				95353ED0212338BE00648B56 /* Info.plist */,
 			);
 			path = "CRM-projectUITests";
+			sourceTree = "<group>";
+		};
+		95353EE8212344D100648B56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95353EDC21233DFC00648B56 /* ClientInfo.swift */,
+				95353EDE21233ECB00648B56 /* ProjectInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95353EE9212344E200648B56 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95353EE02123444D00648B56 /* ClientsTableViewController.swift */,
+				95353EE22123446900648B56 /* ProjectsTableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +292,12 @@
 			files = (
 				95353EAE212338BD00648B56 /* ViewController.swift in Sources */,
 				95353EB4212338BD00648B56 /* CRM_project.xcdatamodeld in Sources */,
+				95353EE7212344C100648B56 /* ClientsTableViewCell.swift in Sources */,
+				95353EDD21233DFC00648B56 /* ClientInfo.swift in Sources */,
 				95353EAC212338BD00648B56 /* AppDelegate.swift in Sources */,
+				95353EE12123444D00648B56 /* ClientsTableViewController.swift in Sources */,
+				95353EDF21233ECB00648B56 /* ProjectInfo.swift in Sources */,
+				95353EE32123446900648B56 /* ProjectsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
