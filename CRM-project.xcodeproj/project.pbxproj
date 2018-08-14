@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95353EAC212338BD00648B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EAB212338BD00648B56 /* AppDelegate.swift */; };
+		95353EAE212338BD00648B56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EAD212338BD00648B56 /* ViewController.swift */; };
+		95353EB1212338BD00648B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95353EAF212338BD00648B56 /* Main.storyboard */; };
+		95353EB4212338BD00648B56 /* CRM_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95353EB2212338BD00648B56 /* CRM_project.xcdatamodeld */; };
+		95353EB6212338BD00648B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95353EB5212338BD00648B56 /* Assets.xcassets */; };
+		95353EB9212338BD00648B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95353EB7212338BD00648B56 /* LaunchScreen.storyboard */; };
+		95353EC4212338BE00648B56 /* CRM_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EC3212338BE00648B56 /* CRM_projectTests.swift */; };
+		95353ECF212338BE00648B56 /* CRM_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353ECE212338BE00648B56 /* CRM_projectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95353EC0212338BE00648B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95353EA0212338BD00648B56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95353EA7212338BD00648B56;
+			remoteInfo = "CRM-project";
+		};
+		95353ECB212338BE00648B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95353EA0212338BD00648B56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95353EA7212338BD00648B56;
+			remoteInfo = "CRM-project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95353EA8212338BD00648B56 /* CRM-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRM-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95353EAB212338BD00648B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95353EAD212338BD00648B56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95353EB0212338BD00648B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95353EB3212338BD00648B56 /* CRM_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CRM_project.xcdatamodel; sourceTree = "<group>"; };
+		95353EB5212338BD00648B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95353EB8212338BD00648B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95353EBA212338BD00648B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95353EBF212338BE00648B56 /* CRM-projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRM-projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95353EC3212338BE00648B56 /* CRM_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRM_projectTests.swift; sourceTree = "<group>"; };
+		95353EC5212338BE00648B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95353ECA212338BE00648B56 /* CRM-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRM-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95353ECE212338BE00648B56 /* CRM_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRM_projectUITests.swift; sourceTree = "<group>"; };
+		95353ED0212338BE00648B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95353EA5212338BD00648B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95353EBC212338BE00648B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95353EC7212338BE00648B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95353E9F212338BD00648B56 = {
+			isa = PBXGroup;
+			children = (
+				95353EAA212338BD00648B56 /* CRM-project */,
+				95353EC2212338BE00648B56 /* CRM-projectTests */,
+				95353ECD212338BE00648B56 /* CRM-projectUITests */,
+				95353EA9212338BD00648B56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95353EA9212338BD00648B56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95353EA8212338BD00648B56 /* CRM-project.app */,
+				95353EBF212338BE00648B56 /* CRM-projectTests.xctest */,
+				95353ECA212338BE00648B56 /* CRM-projectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95353EAA212338BD00648B56 /* CRM-project */ = {
+			isa = PBXGroup;
+			children = (
+				95353EAB212338BD00648B56 /* AppDelegate.swift */,
+				95353EAD212338BD00648B56 /* ViewController.swift */,
+				95353EAF212338BD00648B56 /* Main.storyboard */,
+				95353EB5212338BD00648B56 /* Assets.xcassets */,
+				95353EB7212338BD00648B56 /* LaunchScreen.storyboard */,
+				95353EBA212338BD00648B56 /* Info.plist */,
+				95353EB2212338BD00648B56 /* CRM_project.xcdatamodeld */,
+			);
+			path = "CRM-project";
+			sourceTree = "<group>";
+		};
+		95353EC2212338BE00648B56 /* CRM-projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				95353EC3212338BE00648B56 /* CRM_projectTests.swift */,
+				95353EC5212338BE00648B56 /* Info.plist */,
+			);
+			path = "CRM-projectTests";
+			sourceTree = "<group>";
+		};
+		95353ECD212338BE00648B56 /* CRM-projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95353ECE212338BE00648B56 /* CRM_projectUITests.swift */,
+				95353ED0212338BE00648B56 /* Info.plist */,
+			);
+			path = "CRM-projectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95353EA7212338BD00648B56 /* CRM-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95353ED3212338BE00648B56 /* Build configuration list for PBXNativeTarget "CRM-project" */;
+			buildPhases = (
+				95353EA4212338BD00648B56 /* Sources */,
+				95353EA5212338BD00648B56 /* Frameworks */,
+				95353EA6212338BD00648B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CRM-project";
+			productName = "CRM-project";
+			productReference = 95353EA8212338BD00648B56 /* CRM-project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95353EBE212338BE00648B56 /* CRM-projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95353ED6212338BE00648B56 /* Build configuration list for PBXNativeTarget "CRM-projectTests" */;
+			buildPhases = (
+				95353EBB212338BE00648B56 /* Sources */,
+				95353EBC212338BE00648B56 /* Frameworks */,
+				95353EBD212338BE00648B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95353EC1212338BE00648B56 /* PBXTargetDependency */,
+			);
+			name = "CRM-projectTests";
+			productName = "CRM-projectTests";
+			productReference = 95353EBF212338BE00648B56 /* CRM-projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95353EC9212338BE00648B56 /* CRM-projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95353ED9212338BE00648B56 /* Build configuration list for PBXNativeTarget "CRM-projectUITests" */;
+			buildPhases = (
+				95353EC6212338BE00648B56 /* Sources */,
+				95353EC7212338BE00648B56 /* Frameworks */,
+				95353EC8212338BE00648B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95353ECC212338BE00648B56 /* PBXTargetDependency */,
+			);
+			name = "CRM-projectUITests";
+			productName = "CRM-projectUITests";
+			productReference = 95353ECA212338BE00648B56 /* CRM-projectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95353EA0212338BD00648B56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Nikolay;
+				TargetAttributes = {
+					95353EA7212338BD00648B56 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					95353EBE212338BE00648B56 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 95353EA7212338BD00648B56;
+					};
+					95353EC9212338BE00648B56 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 95353EA7212338BD00648B56;
+					};
+				};
+			};
+			buildConfigurationList = 95353EA3212338BD00648B56 /* Build configuration list for PBXProject "CRM-project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95353E9F212338BD00648B56;
+			productRefGroup = 95353EA9212338BD00648B56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95353EA7212338BD00648B56 /* CRM-project */,
+				95353EBE212338BE00648B56 /* CRM-projectTests */,
+				95353EC9212338BE00648B56 /* CRM-projectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95353EA6212338BD00648B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95353EB9212338BD00648B56 /* LaunchScreen.storyboard in Resources */,
+				95353EB6212338BD00648B56 /* Assets.xcassets in Resources */,
+				95353EB1212338BD00648B56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95353EBD212338BE00648B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95353EC8212338BE00648B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95353EA4212338BD00648B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95353EAE212338BD00648B56 /* ViewController.swift in Sources */,
+				95353EB4212338BD00648B56 /* CRM_project.xcdatamodeld in Sources */,
+				95353EAC212338BD00648B56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95353EBB212338BE00648B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95353EC4212338BE00648B56 /* CRM_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95353EC6212338BE00648B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95353ECF212338BE00648B56 /* CRM_projectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95353EC1212338BE00648B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95353EA7212338BD00648B56 /* CRM-project */;
+			targetProxy = 95353EC0212338BE00648B56 /* PBXContainerItemProxy */;
+		};
+		95353ECC212338BE00648B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95353EA7212338BD00648B56 /* CRM-project */;
+			targetProxy = 95353ECB212338BE00648B56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95353EAF212338BD00648B56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95353EB0212338BD00648B56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95353EB7212338BD00648B56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95353EB8212338BD00648B56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95353ED1212338BE00648B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95353ED2212338BE00648B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95353ED4212338BE00648B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDX8748A9F;
+				INFOPLIST_FILE = "CRM-project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nshuklin.CRM-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95353ED5212338BE00648B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDX8748A9F;
+				INFOPLIST_FILE = "CRM-project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nshuklin.CRM-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95353ED7212338BE00648B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDX8748A9F;
+				INFOPLIST_FILE = "CRM-projectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nshuklin.CRM-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRM-project.app/CRM-project";
+			};
+			name = Debug;
+		};
+		95353ED8212338BE00648B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDX8748A9F;
+				INFOPLIST_FILE = "CRM-projectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nshuklin.CRM-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRM-project.app/CRM-project";
+			};
+			name = Release;
+		};
+		95353EDA212338BE00648B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDX8748A9F;
+				INFOPLIST_FILE = "CRM-projectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nshuklin.CRM-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CRM-project";
+			};
+			name = Debug;
+		};
+		95353EDB212338BE00648B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDX8748A9F;
+				INFOPLIST_FILE = "CRM-projectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nshuklin.CRM-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CRM-project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95353EA3212338BD00648B56 /* Build configuration list for PBXProject "CRM-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95353ED1212338BE00648B56 /* Debug */,
+				95353ED2212338BE00648B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95353ED3212338BE00648B56 /* Build configuration list for PBXNativeTarget "CRM-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95353ED4212338BE00648B56 /* Debug */,
+				95353ED5212338BE00648B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95353ED6212338BE00648B56 /* Build configuration list for PBXNativeTarget "CRM-projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95353ED7212338BE00648B56 /* Debug */,
+				95353ED8212338BE00648B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95353ED9212338BE00648B56 /* Build configuration list for PBXNativeTarget "CRM-projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95353EDA212338BE00648B56 /* Debug */,
+				95353EDB212338BE00648B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95353EB2212338BD00648B56 /* CRM_project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95353EB3212338BD00648B56 /* CRM_project.xcdatamodel */,
+			);
+			currentVersion = 95353EB3212338BD00648B56 /* CRM_project.xcdatamodel */;
+			path = CRM_project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95353EA0212338BD00648B56 /* Project object */;
+}
