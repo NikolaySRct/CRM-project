@@ -23,6 +23,7 @@
 		95353EEC212345F000648B56 /* ProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EEB212345F000648B56 /* ProjectsTableViewCell.swift */; };
 		95353EEE212346DC00648B56 /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EED212346DC00648B56 /* ProjectDetailsViewController.swift */; };
 		95353EF121239C9200648B56 /* ClientsInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EF021239C9200648B56 /* ClientsInfoAPI.swift */; };
+		95353EF32124820100648B56 /* clientsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 95353EF22124820100648B56 /* clientsData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		95353EEB212345F000648B56 /* ProjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewCell.swift; sourceTree = "<group>"; };
 		95353EED212346DC00648B56 /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewController.swift; sourceTree = "<group>"; };
 		95353EF021239C9200648B56 /* ClientsInfoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsInfoAPI.swift; sourceTree = "<group>"; };
+		95353EF22124820100648B56 /* clientsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clientsData.json; sourceTree = "<group>"; };
 		AB9D64DD7A72A73048B830B9 /* Pods-CRM-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRM-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRM-project/Pods-CRM-project.release.xcconfig"; sourceTree = "<group>"; };
 		E3E56CA92D326481FCFDB838 /* Pods_CRM_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRM_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,6 +136,7 @@
 				95353EE8212344D100648B56 /* Model */,
 				95353EEA2123458B00648B56 /* Supporting Files */,
 				95353EAF212338BD00648B56 /* Main.storyboard */,
+				95353EF22124820100648B56 /* clientsData.json */,
 				95353EB2212338BD00648B56 /* CRM_project.xcdatamodeld */,
 				95353EBA212338BD00648B56 /* Info.plist */,
 			);
@@ -314,6 +317,7 @@
 				95353EB9212338BD00648B56 /* LaunchScreen.storyboard in Resources */,
 				95353EB6212338BD00648B56 /* Assets.xcassets in Resources */,
 				95353EB1212338BD00648B56 /* Main.storyboard in Resources */,
+				95353EF32124820100648B56 /* clientsData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

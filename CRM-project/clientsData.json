@@ -1,0 +1,50 @@
+ [
+      {
+          "name":"ABC LLC",
+          "firstProjectDate":"01/01/2018",
+          "contactNumber":"123-2344-2354",
+          "contactPerson":"John Smith",
+          "projectsOpen":"",        //[ProjectInfo]?
+          "projectsFinished":"",    //[ProjectInfo]?
+          "projectsSuspended":"",   //[ProjectInfo]?
+          "totalProjectsNumber":"5",
+          "totalProjectsFinished":"3",
+          "totalRevenue":"$4000"
+      },
+      {
+          "name":"BLABLA LLC",
+          "firstProjectDate":"04/10/2018",
+          "contactNumber":"123-4564-2354",
+          "contactPerson":"John Doe",
+          "projectsOpen":"",        //[ProjectInfo]?
+          "projectsFinished":"",    //[ProjectInfo]?
+          "projectsSuspended":"",   //[ProjectInfo]?
+          "totalProjectsNumber":"3",
+          "totalProjectsFinished":"1",
+          "totalRevenue":"$3500"
+      },
+      {
+          "name":"ESHEODNA LLC",
+          "firstProjectDate":"05/15/2018",
+          "contactNumber":"343-2344-2354",
+          "contactPerson":"Melinda Black",
+          "projectsOpen":"",        //[ProjectInfo]?
+          "projectsFinished":"",    //[ProjectInfo]?
+          "projectsSuspended":"",   //[ProjectInfo]?
+          "totalProjectsNumber":"4",
+          "totalProjectsFinished":"3",
+          "totalRevenue":"$5000"
+      },
+      {
+          "name":"IESHEODNA LLC",
+          "firstProjectDate":"02/02/2018",
+          "contactNumber":"666-2344-2354",
+          "contactPerson":"Steven White",
+          "projectsOpen":"",        //[ProjectInfo]?
+          "projectsFinished":"",    //[ProjectInfo]?
+          "projectsSuspended":"",   //[ProjectInfo]?
+          "totalProjectsNumber":"5",
+          "totalProjectsFinished":"3",
+          "totalRevenue":"$4000"
+      }
+]
