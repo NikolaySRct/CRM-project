@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2388414AE92E9521DE9E6CFD /* Pods_CRM_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E56CA92D326481FCFDB838 /* Pods_CRM_project.framework */; };
 		95353EAC212338BD00648B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EAB212338BD00648B56 /* AppDelegate.swift */; };
 		95353EB1212338BD00648B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95353EAF212338BD00648B56 /* Main.storyboard */; };
 		95353EB4212338BD00648B56 /* CRM_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95353EB2212338BD00648B56 /* CRM_project.xcdatamodeld */; };
@@ -21,6 +22,7 @@
 		95353EE7212344C100648B56 /* ClientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EE6212344C100648B56 /* ClientsTableViewCell.swift */; };
 		95353EEC212345F000648B56 /* ProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EEB212345F000648B56 /* ProjectsTableViewCell.swift */; };
 		95353EEE212346DC00648B56 /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EED212346DC00648B56 /* ProjectDetailsViewController.swift */; };
+		95353EF121239C9200648B56 /* ClientsInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95353EF021239C9200648B56 /* ClientsInfoAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C913A49FD11D1FF7F7A6190 /* Pods-CRM-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRM-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRM-project/Pods-CRM-project.debug.xcconfig"; sourceTree = "<group>"; };
 		95353EA8212338BD00648B56 /* CRM-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRM-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95353EAB212338BD00648B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95353EB0212338BD00648B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +64,9 @@
 		95353EE6212344C100648B56 /* ClientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsTableViewCell.swift; sourceTree = "<group>"; };
 		95353EEB212345F000648B56 /* ProjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewCell.swift; sourceTree = "<group>"; };
 		95353EED212346DC00648B56 /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewController.swift; sourceTree = "<group>"; };
+		95353EF021239C9200648B56 /* ClientsInfoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsInfoAPI.swift; sourceTree = "<group>"; };
+		AB9D64DD7A72A73048B830B9 /* Pods-CRM-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRM-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRM-project/Pods-CRM-project.release.xcconfig"; sourceTree = "<group>"; };
+		E3E56CA92D326481FCFDB838 /* Pods_CRM_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRM_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2388414AE92E9521DE9E6CFD /* Pods_CRM_project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E99DE6EE641071FE4471ED5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C913A49FD11D1FF7F7A6190 /* Pods-CRM-project.debug.xcconfig */,
+				AB9D64DD7A72A73048B830B9 /* Pods-CRM-project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		95353E9F212338BD00648B56 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +111,8 @@
 				95353EC2212338BE00648B56 /* CRM-projectTests */,
 				95353ECD212338BE00648B56 /* CRM-projectUITests */,
 				95353EA9212338BD00648B56 /* Products */,
+				0E99DE6EE641071FE4471ED5 /* Pods */,
+				A0A9880B1E56E1BF155B4EF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				95353EE02123444D00648B56 /* ClientsTableViewController.swift */,
+				95353EF021239C9200648B56 /* ClientsInfoAPI.swift */,
 				95353EE22123446900648B56 /* ProjectsTableViewController.swift */,
 				95353EED212346DC00648B56 /* ProjectDetailsViewController.swift */,
 			);
@@ -178,6 +197,14 @@
 			path = TableViewCells;
 			sourceTree = "<group>";
 		};
+		A0A9880B1E56E1BF155B4EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3E56CA92D326481FCFDB838 /* Pods_CRM_project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95353ED3212338BE00648B56 /* Build configuration list for PBXNativeTarget "CRM-project" */;
 			buildPhases = (
+				2A38340A73D6E96D5412C8D8 /* [CP] Check Pods Manifest.lock */,
 				95353EA4212338BD00648B56 /* Sources */,
 				95353EA5212338BD00648B56 /* Frameworks */,
 				95353EA6212338BD00648B56 /* Resources */,
+				232682A04EF6FE0B1511772B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,6 +333,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		232682A04EF6FE0B1511772B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CRM-project/Pods-CRM-project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRM-project/Pods-CRM-project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A38340A73D6E96D5412C8D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRM-project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95353EA4212338BD00648B56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -312,6 +382,7 @@
 				95353EB4212338BD00648B56 /* CRM_project.xcdatamodeld in Sources */,
 				95353EE7212344C100648B56 /* ClientsTableViewCell.swift in Sources */,
 				95353EDD21233DFC00648B56 /* ClientInfo.swift in Sources */,
+				95353EF121239C9200648B56 /* ClientsInfoAPI.swift in Sources */,
 				95353EEC212345F000648B56 /* ProjectsTableViewCell.swift in Sources */,
 				95353EAC212338BD00648B56 /* AppDelegate.swift in Sources */,
 				95353EE12123444D00648B56 /* ClientsTableViewController.swift in Sources */,
@@ -490,6 +561,7 @@
 		};
 		95353ED4212338BE00648B56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C913A49FD11D1FF7F7A6190 /* Pods-CRM-project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +581,7 @@
 		};
 		95353ED5212338BE00648B56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9D64DD7A72A73048B830B9 /* Pods-CRM-project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -85,7 +85,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="UVY-kv-7IY" customClass="ClientsTableViewCell" customModule="CRM_project" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="companyCellPrototype" rowHeight="100" id="UVY-kv-7IY" customClass="ClientsTableViewCell" customModule="CRM_project" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UVY-kv-7IY" id="6tz-dL-X0M">
@@ -133,7 +133,11 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="9W5-i9-IBQ" kind="show" id="eTg-aN-zbP"/>
+                                    <outlet property="companyLogo" destination="dwT-5b-AhW" id="ui8-r2-kl0"/>
+                                    <outlet property="companyNameLabel" destination="Cfa-VS-yD4" id="c2L-fd-7Ty"/>
+                                    <outlet property="mostRecentProject" destination="PKS-oY-BX4" id="X3T-Yn-DLf"/>
+                                    <outlet property="phoneNumberLabel" destination="e6p-E2-fb7" id="2WP-IW-KJe"/>
+                                    <segue destination="9W5-i9-IBQ" kind="show" identifier="ShowClientsProjects" id="eTg-aN-zbP"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -157,7 +161,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="DZv-qi-80r" customClass="ProjectsTableViewCell" customModule="CRM_project" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="projectCellPrototype" id="DZv-qi-80r" customClass="ProjectsTableViewCell" customModule="CRM_project" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DZv-qi-80r" id="9WM-hv-U97">

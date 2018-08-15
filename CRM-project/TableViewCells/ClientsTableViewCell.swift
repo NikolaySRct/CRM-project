@@ -2,15 +2,22 @@ import UIKit
 
 class ClientsTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak private var companyLogo: UIImageView!
+    @IBOutlet weak private var companyNameLabel: UILabel!
+    @IBOutlet weak private var mostRecentProject: UILabel!
+    @IBOutlet weak private var phoneNumberLabel: UILabel!
+    
+    var entry: ClientInfo? {
+        didSet {
+            updateUI()
+        }
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    private func updateUI() {
+        companyLogo.tintColor = UIColor.blue
+        companyNameLabel.text = entry?.name
+        mostRecentProject.text = "bla bla"
+        phoneNumberLabel.text = "123-1234-1234"
     }
 
 }
