@@ -18,7 +18,7 @@ class ClientsInfoAPI {
                 let results = JSON(value)
                 for index in 0..<results.count {
                     AllResults.append(ClientInfo(name: results[index]["name"].stringValue,
-                                                          balance: results[index]["amount"].doubleValue,
+                                                 firstProjectDate: results[index]["amount"].doubleValue,
                                                           ROI: results[index]["ROI"].doubleValue,
                                                           id: results[index]["id"].intValue))
                 }

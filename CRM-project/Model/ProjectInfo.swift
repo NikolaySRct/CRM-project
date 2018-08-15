@@ -3,14 +3,14 @@ import Foundation
 struct ProjectInfo {
     var name: String
     var priority: Priority
+    var status: Status
     var startDate: String
     var dueDate: String?
-    var status: Status
-    var languagesUsed: [Languages]
-    var developersAssigned: [Developers]?
-    var teamLead: Developers
+    var languages: [Languages]
+    var developersAssigned: [Developer]?
+    var teamLead: Developer
     var totalHoursSpend: Int
-    var totalHoursSpendByEachDev: [Developers: Int]
+    var totalHoursSpendByEachDev: [Developer: Int]
 }
 
 enum Status {
@@ -30,7 +30,7 @@ enum Languages {
     case ReactNative
 }
 
-enum Developers {
+enum Developer {
     case Kirill_Erokhin
     case Nikolay_Shuklin
 }
