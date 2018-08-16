@@ -8,7 +8,7 @@ class ClientsInfoAPI {
     
     var fileName = "clientsData"
     
-    func fetchData() {
+    func fetchData(completion : @escaping ([ClientInfo]) -> Void) {
         if let path = Bundle.main.path(forResource: fileName, ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
@@ -17,20 +17,19 @@ class ClientsInfoAPI {
                     allResults.append(ClientInfo(name: json[index]["name"].stringValue,
                                                  dateOfTheFirstProject: json[index]["dateOfTheFirstProject"].stringValue,
                                                  contactNumber: json[index]["contactNumber"].stringValue,
-                                              compositeRating: json[index]["compositeRating"].doubleValue,
-                                              companyOverview: json[index]["companyOverview"].stringValue
+                                                 contactPerson: json[index]["contactPerson"].stringValue,
+                                                 projects: nil,
+                                                 totalProjectsNumber: nil,
+                                                 totalProjectsFinished: nil,
+                                                 totalRevenue: nil
                     ))
                 }
+                completion(allResults)
             } catch {
                 print("Something wrong with JSON")
             }
         }
     }
-    
-    private func append() {
-    
-    }
-    
     
     
 //    // API link where all account info fetched from
