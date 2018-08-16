@@ -2,7 +2,7 @@ import Foundation
 
 struct ClientInfo {
     var name: String
-    var firstProjectDate: String?
+    var dateOfTheFirstProject: String?
     var contactNumber: String
     var contactPerson: String?
     var projects: [ProjectInfo]?

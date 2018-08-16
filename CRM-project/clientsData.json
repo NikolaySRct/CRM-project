@@ -1,7 +1,7 @@
  [
       {
           "name":"ABC LLC",
-          "firstProjectDate":"01/01/2018",
+          "dateOfTheFirstProject":"01/01/2018",
           "contactNumber":"123-2344-2354",
           "contactPerson":"John Smith",
           "projects":[
@@ -42,7 +42,7 @@
       },
       {
           "name":"BLABLA LLC",
-          "firstProjectDate":"04/10/2018",
+          "dateOfTheFirstProject":"04/10/2018",
           "contactNumber":"123-4564-2354",
           "contactPerson":"John Doe",
           "projects":[
@@ -83,7 +83,7 @@
       },
       {
           "name":"ESHEODNA LLC",
-          "firstProjectDate":"05/15/2018",
+          "dateOfTheFirstProject":"05/15/2018",
           "contactNumber":"343-2344-2354",
           "contactPerson":"Melinda Black",
           "projects":[
@@ -124,7 +124,7 @@
       },
       {
           "name":"IESHEODNA LLC",
-          "firstProjectDate":"02/02/2018",
+          "dateOfTheFirstProject":"02/02/2018",
           "contactNumber":"666-2344-2354",
           "contactPerson":"Steven White",
           "projects":[
