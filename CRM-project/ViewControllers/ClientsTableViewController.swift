@@ -8,6 +8,10 @@ class ClientsTableViewController: UITableViewController {
         }
     }
     
+    @IBAction func refresh(_ sender: UIRefreshControl) {
+        fetchInfo()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchInfo()
@@ -18,6 +22,7 @@ class ClientsTableViewController: UITableViewController {
         dataFetch.fetchData { [weak self] (allClients) -> () in
             self?.allClients = allClients
         }
+        self.refreshControl?.endRefreshing()
         //            SVProgressHUD.dismiss()
     }
     

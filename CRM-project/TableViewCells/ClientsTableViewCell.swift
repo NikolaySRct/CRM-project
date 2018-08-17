@@ -14,10 +14,10 @@ class ClientsTableViewCell: UITableViewCell {
     }
     
     private func updateUI() {
-        companyLogo.tintColor = UIColor.blue
+        companyLogo.tintColor = UIColor.red
         companyNameLabel.text = entry?.name
         mostRecentProject.text = "bla bla"
-        phoneNumberLabel.text = "123-1234-1234"
+        phoneNumberLabel.text = entry?.contactNumber
     }
 
 }

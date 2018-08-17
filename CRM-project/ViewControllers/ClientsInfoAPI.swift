@@ -24,6 +24,7 @@ class ClientsInfoAPI {
                                                  totalRevenue: nil
                     ))
                 }
+                print("1\n")
                 completion(allResults)
             } catch {
                 print("Something wrong with JSON")
