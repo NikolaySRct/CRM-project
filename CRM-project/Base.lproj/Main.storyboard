@@ -209,6 +209,7 @@
                                     <constraints>
                                         <constraint firstItem="5AQ-ms-dsY" firstAttribute="bottom" secondItem="g9G-ef-cEf" secondAttribute="bottom" id="0kb-8q-8AC"/>
                                         <constraint firstItem="QOa-h4-8ef" firstAttribute="leading" secondItem="9WM-hv-U97" secondAttribute="leading" constant="20" id="2AZ-gn-X3V"/>
+                                        <constraint firstItem="g9G-ef-cEf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="QOa-h4-8ef" secondAttribute="trailing" constant="8" symbolic="YES" id="8k8-SH-Xnk"/>
                                         <constraint firstItem="QOa-h4-8ef" firstAttribute="top" secondItem="9WM-hv-U97" secondAttribute="top" constant="11" id="BXV-Uc-A2a"/>
                                         <constraint firstItem="g9G-ef-cEf" firstAttribute="bottom" secondItem="QOa-h4-8ef" secondAttribute="bottom" id="Ein-Fd-UkD"/>
                                         <constraint firstItem="g9G-ef-cEf" firstAttribute="centerX" secondItem="9WM-hv-U97" secondAttribute="centerX" id="FOh-Wz-Hwe"/>
@@ -216,7 +217,9 @@
                                         <constraint firstAttribute="trailing" secondItem="5AQ-ms-dsY" secondAttribute="trailing" constant="20" id="Kbc-aW-8JE"/>
                                         <constraint firstItem="LmQ-L6-TDc" firstAttribute="leading" secondItem="QOa-h4-8ef" secondAttribute="leading" id="OvB-JA-8Rc"/>
                                         <constraint firstAttribute="trailing" secondItem="EIz-mL-kea" secondAttribute="trailing" constant="20" id="dX2-nD-wAG"/>
+                                        <constraint firstItem="EIz-mL-kea" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="LmQ-L6-TDc" secondAttribute="trailing" constant="8" symbolic="YES" id="dyf-qU-aAy"/>
                                         <constraint firstItem="LmQ-L6-TDc" firstAttribute="top" secondItem="QOa-h4-8ef" secondAttribute="bottom" constant="20" id="u9Q-BI-Dda"/>
+                                        <constraint firstItem="5AQ-ms-dsY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="g9G-ef-cEf" secondAttribute="trailing" constant="8" symbolic="YES" id="wGU-fi-g8c"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
