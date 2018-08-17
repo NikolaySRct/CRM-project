@@ -27,22 +27,25 @@ class ClientsTableViewController: UITableViewController {
     }
     
     // Prepare for segue from tableViewCell to the account details VC
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if let identifier = segue.identifier {
-//            switch identifier {
-//            case "ShowClientsProjects":
-//                if let cell = sender as? ClientsTableViewCell,
-//                    let indexPath = tableView.indexPath(for: cell) {
-//                    let destination = segue.destination as! ProjectsTableViewController
-//                    
-//                    // this is how selected account information passed to the details VC
-//                    destination.selectedClient = allClients[indexPath.row]
-//                }
-//            default:
-//                break
-//            }
-//        }
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            switch identifier {
+            case "ShowClientsProjects":
+                if let cell = sender as? ClientsTableViewCell,
+                    let indexPath = tableView.indexPath(for: cell) {
+                    let destination = segue.destination as! ProjectsTableViewController
+                    
+                    // this is how selected account information passed to the details VC
+//                    destination.selectedClientProjects = (allClients[indexPath.row].projects?)!(allClients[indexPath.row].projects?)!
+                }
+            default:
+                break
+            }
+        }
+    }
+    
+    
+    // TableView methods
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return allClients.count

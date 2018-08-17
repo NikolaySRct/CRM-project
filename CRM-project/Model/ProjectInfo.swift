@@ -13,30 +13,30 @@ struct ProjectInfo {
     var totalHoursSpendByEachDev: [Developer: Int]
 }
 
-enum Status {
-    case finished
-    case suspended
-    case postponed
-    case delayed
-    case canceled
-    case open
+enum Status: String {
+    case finished = "finished"
+    case suspended = "suspended"
+    case postponed = "postponed"
+    case delayed = "delayed"
+    case canceled = "canceled"
+    case open = "open"
 }
 
-enum Languages {
-    case Swift
-    case Javascript
-    case ReactJS
-    case dotNET
-    case ReactNative
+enum Languages: String {
+    case swift = "Swift"
+    case javascript = "Javascript"
+    case reactJS = "ReactJS"
+    case dotNET = ".NET"
+    case reactNative = "React Native"
 }
 
-enum Developer {
-    case Kirill_Erokhin
-    case Nikolay_Shuklin
+enum Developer: String {
+    case Kirill_Erokhin = "Kirill Erokhin"
+    case Nikolay_Shuklin = "Nikolay Shuklin"
 }
 
-enum Priority {
-    case high
-    case regular
-    case low
+enum Priority: String {
+    case high = "high"
+    case regular = "regular"
+    case low = "low"
 }

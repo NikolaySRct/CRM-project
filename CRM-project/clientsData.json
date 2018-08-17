@@ -29,7 +29,8 @@
     }],
     "totalProjectsNumber": "5",
     "totalProjectsFinished": "3",
-    "totalRevenue": "$4000"
+    "totalRevenue": "$4000",
+    "companyLogoLink":"www.ya.ru"
 },
 {
     "name": "BLABLA LLC",
@@ -62,7 +63,8 @@
     }],
     "totalProjectsNumber": "3",
     "totalProjectsFinished": "1",
-    "totalRevenue": "$3500"
+    "totalRevenue": "$3500",
+    "companyLogoLink":"www.ya.ru"
 },
 {
     "name": "ESHEODNA LLC",
@@ -95,7 +97,8 @@
     }],
     "totalProjectsNumber": "4",
     "totalProjectsFinished": "3",
-    "totalRevenue": "$5000"
+    "totalRevenue": "$5000",
+    "companyLogoLink":"www.ya.ru"
 },
 {
     "name": "IESHEODNA LLC",
@@ -128,6 +131,7 @@
     }],
     "totalProjectsNumber": "5",
     "totalProjectsFinished": "3",
-    "totalRevenue": "$4000"
+    "totalRevenue": "$4000",
+    "companyLogoLink":"www.ya.ru"
 }
 ]
